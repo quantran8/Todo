@@ -1,0 +1,28 @@
+.todo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+  width: 700px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  border-bottom: 1px solid gray;
+}
+.todo button {
+  margin: 0 10px;
+  border-radius: 5px;
+}
+.todo .title {
+  width: 70%;
+}
+.todo .btn {
+  width: 30%;
+}
+.active {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+.fix {
+  background-color: gray;
+  color: white;
+}

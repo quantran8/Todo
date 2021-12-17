@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 800px;
+  margin: auto;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: whitesmoke;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input {
+  width: 450px;
+  height: 50px;
+  padding: 0 20px;
+}
+.form {
+  position: relative;
+}
+.form button,
+select {
+  height: 50px;
+
+}
+.form button{
+  border: 1px solid black;
+  border-radius:4px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
